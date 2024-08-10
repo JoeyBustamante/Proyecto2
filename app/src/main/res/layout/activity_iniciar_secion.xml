@@ -12,7 +12,8 @@
         android:layout_height="729dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -21,7 +22,7 @@
             app:srcCompat="@drawable/juegosolimpicos_foto" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/usuarioTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="35dp"
@@ -33,7 +34,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/contrasenaTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
