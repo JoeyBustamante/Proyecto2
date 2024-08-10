@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Proyecto2</string>
+    <string name="IniciarSecion">Iniciar Secion</string>
+    <string name="Calendario">Calendario</string>
+    <string name="Medallero">Medallero</string>
+
 </resources>
