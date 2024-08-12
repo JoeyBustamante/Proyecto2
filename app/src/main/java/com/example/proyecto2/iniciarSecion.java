@@ -1,5 +1,6 @@
 package com.example.proyecto2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,6 +33,8 @@ public class iniciarSecion extends AppCompatActivity {
             try {
                 autentificar(usuario, contrasena);
                 Toast.makeText(this, "Bienvenido", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(iniciarSecion.this,IngresarDatos.class);
+                startActivity(intent);
             } catch (CredencialesInvalidasException w) {
                 Toast.makeText(this, w.getMessage(), Toast.LENGTH_SHORT).show();
             }
