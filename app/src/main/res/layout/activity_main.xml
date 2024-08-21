@@ -20,8 +20,8 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
-            app:srcCompat="@drawable/juegosolimpicos_foto" />
+            android:layout_height="155dp"
+            app:srcCompat="@drawable/olympics_logo_1912" />
 
         <Button
             android:id="@+id/iniciarSecionBtn"
@@ -34,7 +34,7 @@
             android:text="@string/IniciarSecion" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/calendarioBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"

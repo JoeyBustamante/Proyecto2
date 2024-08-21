@@ -20,12 +20,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button iniciarSecionBtn  =  findViewById(R.id.iniciarSecionBtn);
+        Button calendarioBtn = findViewById(R.id.calendarioBtn);
+
+
         iniciarSecionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,iniciarSecion.class);
                 startActivity(intent);
 
+            }
+        });
+
+
+
+        calendarioBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Calendario.class);
+                startActivity(intent);
             }
         });
 
